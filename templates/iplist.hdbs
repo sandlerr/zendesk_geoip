@@ -1,0 +1,11 @@
+<div>
+    {{#if ipadr}}
+        <a href="#/iplookup/{{ipadr}}" class="lookup" rel="nofollow" title="{{t "lookup_ip"}}">
+          <i class='icon-remove-circle'></i>{{ipadr}}
+        </a>
+    {{/if}}
+
+  {{#unless ipadr.length}}
+    <p>{{t "none"}}}</p>
+  {{/unless}}
+</div>

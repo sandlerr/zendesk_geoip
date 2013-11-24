@@ -1,0 +1,27 @@
+{
+  "app": {
+    "package": "geoip_app",
+    "description": {
+      "value": "Find the IP a ticket was created from",
+      "title": "App Description"
+    }
+  },
+  "loading": {
+    "value": "Loading",
+    "title": "loading text"
+  },
+
+  "lookup_ip": {
+    "title": "Look up this IP address",
+	"value": "Look up this IP address"
+  },
+  
+  "ipfail": {
+    "value": "Failed to fetch the IP address!",
+	"title": "Failed to fetch the IP address!"
+  },
+    "geofail": {
+    "value": "Failed to fetch the geolocation address!",
+	"title": "Failed to fetch the geolocation address!"
+  }
+}
